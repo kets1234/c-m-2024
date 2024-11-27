@@ -322,6 +322,7 @@ header, section, footer{
 
 .couple-section .couple p{
     text-align: justify;
+    font-style: italic;
 }
 
 .couple-section .couple:nth-child(2)::before{
