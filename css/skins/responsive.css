@@ -118,3 +118,11 @@
         margin-top: 50px;
     }
 }
+
+@media(max-width: 430px){
+    .container .home-content h1,
+    .melvin{
+        font-size: 70px;
+        letter-spacing: 10px;
+    }
+}
