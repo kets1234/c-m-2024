@@ -176,4 +176,7 @@
         font-size: 50px; /* Reduce icon size */
         margin: 10px 0;
       }
+      .couple .bxs-heart{
+        opacity: 0;
+      }
 }
