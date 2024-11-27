@@ -179,4 +179,13 @@
       .couple .bxs-heart{
         opacity: 0;
       }
+
+      .story-img-first img{
+        width: 800px;
+        height: 400px;
+      }
+
+      .attire-guide-section img{
+        height: 100px;
+      }
 }
