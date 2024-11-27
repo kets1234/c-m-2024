@@ -597,15 +597,15 @@ header, section, footer{
 
 /*people section*/
 .people-section {
-    padding: 40px 0;
+    padding: 40px 0px 80px;
     background-color: #c4a484;
     min-height: 100%;
     position: relative;
+    min-width: none;
 }
 
 .slider-frame {
     overflow: hidden;
-    height: 100%; 
     max-width: 100%;
     margin: auto;
     margin-top: -50px;
@@ -639,7 +639,7 @@ header, section, footer{
 }
 
 /* Responsive adjustments */
-@media (max-width: 574px) {
+@media (max-width: 400px) {
     
     .slider-frame {
         height: 1020px; /* Reduced height for smaller screens */
