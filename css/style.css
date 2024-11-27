@@ -823,7 +823,7 @@ p.copyright-text{
 /**attire guide**/
 .attire-guide-section{
     padding: 40px 0px 80px;
-    min-height: 100%;
+    width: 100%;
     position: relative;
 }
 
