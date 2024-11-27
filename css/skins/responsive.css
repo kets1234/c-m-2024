@@ -24,8 +24,10 @@
     .header .hamburger-btn{
         display: flex;
         margin-right: 50px;
-
+        padding: 10px;
+        z-index: 1000; /* Ensure it's on top */
     }
+    
     .header .nav{
         flex: 0 0 100%;
         max-width: 100%;
@@ -125,4 +127,53 @@
         font-size: 70px;
         letter-spacing: 10px;
     }
+
+    .container .home-content p{
+        font-size: 20px;
+    }
+
+    .couple-section {
+        padding: 40px 20px;
+      }
+    
+      .couple-section .row {
+        flex-direction: column; /* Stack elements vertically */
+      }
+    
+      .couple-section .couple {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 10px;
+        margin-bottom: 30px; /* Add spacing between stacked elements */
+      }
+    
+      .couple-section .couple img {
+        max-width: 200px; /* Reduce image size for smaller screens */
+        height: auto;
+      }
+    
+      .couple-section .couple h3 {
+        font-size: 30px; /* Adjust heading size */
+      }
+    
+      .couple-section .text-melvin,
+      .couple-section .text {
+        font-size: 14px; /* Make text more compact */
+        line-height: 1.5;
+      }
+    
+      .couple-section .see-more,
+      .couple-section .see-more-melvin {
+        font-size: 14px;
+      }
+    
+      .couple-section .couple:nth-child(2)::before {
+        display: none; /* Hide the vertical line for smaller screens */
+      }
+    
+      .couple-section .couple i.bxs-heart {
+        position: static; /* Prevent overlap issues */
+        font-size: 50px; /* Reduce icon size */
+        margin: 10px 0;
+      }
 }
