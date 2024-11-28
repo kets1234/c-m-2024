@@ -597,8 +597,45 @@ header, section, footer{
 
 /*people section*/
 .people-section {
-    padding: 40px 0 40px;
+    padding: 40px 0;
     background-color: #c4a484;
+    min-height: 100%;
+    position: relative;
+}
+
+.slider-frame {
+    overflow: hidden;
+    height: 100%; 
+    max-width: 100%;
+    margin: auto;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-frame .slide-images {
+    display: flex;
+    transition: transform 1s ease;
+    position: relative;
+    animation: slide_animation 20s infinite;
+}
+
+.slider-frame .slide-images img {
+    width: 100%; /* Full width within container */
+    height: 100%; /* Maintain aspect ratio */
+}
+
+@keyframes slide_animation {
+    0%, 20% { transform: translateX(0); }
+    25%, 45% { transform: translateX(-100%); }
+    50%, 70% { transform: translateX(-200%); }
+    75%, 100% { transform: translateX(0); }
+}
+
+.img-container {
+    min-width: 100%; /* Each image takes full width */
+    box-sizing: border-box;
 }
 
 /* Responsive adjustments */
