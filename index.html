@@ -327,15 +327,15 @@
         <form action="" class="form">
           <div class="row">
             <div class="input-group w50">
-              <input type="text" placeholder="Full Name" class="input-control" name="name">
+              <input type="text" placeholder="Full Name" class="input-control" name="name" required>
             </div>
             <div class="input-group w50">
-              <input type="text" placeholder="Contact #" class="input-control" name="mail">
+              <input type="text" placeholder="Contact #" class="input-control" name="mail" required>
             </div>
           </div>
           <div class="row">
             <div class="input-group">
-              <select name="guest" id="" class="input-control">
+              <select name="guest" id="" class="input-control" required>
                 <option value="">Number of Guest</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -347,7 +347,7 @@
           </div>
           <div class="row">
             <div class="input-group">
-              <select name="attend" id="" class="input-control">
+              <select name="attend" id="" class="input-control" required>
                 <option value="I am attending">I am attending</option>
                 <option value="I am not attending">I am not attending</option>
               </select>
